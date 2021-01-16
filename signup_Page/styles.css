@@ -3,8 +3,33 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.container{
-    background-color: yellowgreen;
     padding:0;
+    margin:0;
+}
+img{
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    z-index: -1;
+    opacity: 80%;
+}
+
+.beincenter{
+    position: absolute;
+    text-align: center;
+}
+label{
+    text-align: left;
+    display: block;
+}
+input{
+    display: block;
+}
+.btnsignup{
+    display: block;
+    margin-top: 2rem;
 }
